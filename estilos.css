@@ -1,0 +1,147 @@
+/* ===== CONFIGURACIÓN GENERAL ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif; /* Cambio de letra */
+    background-color: #eef2f3; /* Color de fondo de la página */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* ===== MENÚ SUPERIOR ===== */
+nav {
+    background-color: #1f3a5f; /* Fondo del menú */
+}
+
+.menu {
+    list-style: none; /* Quita viñetas */
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #1abc9c;
+}
+
+/* ===== SECCIONES ===== */
+.seccion {
+    background-color: #ffffff; /* Fondo blanco para cada sección */
+    margin: 20px auto;
+    padding: 25px;
+    width: 85%;
+    border-radius: 10px; /* Bordes redondeados */
+
+    box-shadow: 0px 4px 10px hsl(192, 77%, 47%);
+}
+
+/* ===== TÍTULOS ===== */
+h1 {
+    text-align: center;
+    color: #1f3a5f;
+}
+
+h2 {
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+    padding-bottom: 5px;
+}
+
+/* ===== IMÁGENES ===== */
+img {
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px hsl(192, 77%, 47%);
+}
+
+/* ===== PÁRRAFOS ===== */
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* ===== LISTAS ===== */
+ul, ol {
+    margin-left: 30px;
+}
+
+/* ===== TABLAS ===== */
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1f3a5f;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+/* ===== FORMULARIO ===== */
+form {
+    background-color: #f4f6f7;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #16a085;
+}
+
+/* ===== BOTÓN FLOTANTE "IR ARRIBA" ===== */
+.boton-arriba {
+    position: fixed;              /* Hace que el botón flote */
+    bottom: 20px;                 /* Separación desde abajo */
+    right: 20px;                  /* Separación desde la derecha */
+    background-color: #1abc9c;    /* Color del botón */
+    color: white;                 /* Color del texto */
+    padding: 12px 15px;           /* Tamaño del botón */
+    border-radius: 50%;           /* Forma circular */
+    text-decoration: none;        /* Quita subrayado */
+    font-size: 20px;              /* Tamaño del ícono/texto */
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+/* Efecto cuando el mouse pasa encima */
+.boton-arriba:hover {
+    background-color: #16a085;
+}
